@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: auto;
+}
+
+.App, .List {
+  width:100%;
+  height:100vh;
+  background-image: linear-gradient(180deg,rgba(175,238,238) ,pink 40%, whitesmoke 80%);
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin: 20px 0px;
+}
+
+form {
+  text-align: center;
+}
+
+.form-group {
+  font-size: 24px;
+  margin: 40px 0px;
+}
+
+.form-input, .btn {
+  font-size: 24px;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 30px;
+  border-width: 3px;
+}
+
+.form-input:focus {
+  background-color: lightblue;
+  border-color: blue;
+}
+
+.btn {
+  padding: 10px 80px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.btn:hover {
+  background-color: cyan;
+}
+
+.Data {
+  width: 80%;
+  margin: 40px auto;
+  background-color: lightblue;
+  border: 3px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.employee-box {
+  width: 44%;
+  padding: 20px 10px;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin: 20px 10px;
+  text-align: center;
+  background-color: lightpink;
+}
